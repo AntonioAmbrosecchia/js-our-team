@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner_header {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+
+    h1 {
+
+        color: #e53170;
+    }
+
+    .paragrafo_header {
+        margin-top: 35px;
+    }
+
+}
