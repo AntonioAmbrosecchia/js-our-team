@@ -4,7 +4,6 @@
 }
 
 .conteiner_header {
-
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,12 +12,52 @@
     padding: 50px;
 
     h1 {
-
         color: #e53170;
     }
 
     .paragrafo_header {
         margin-top: 35px;
     }
+}
 
+main {
+    padding: 50px;
+
+    .row {
+        display: flex;
+
+        .card {
+            display: flex;
+            background-color: black;
+
+            .img {
+                height: 125px;
+            }
+
+            .container_generalità {
+                padding-left: 25px;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                padding-right: 45px;
+
+
+                h4 {
+                    font-size: 24px;
+                    color: white;
+                    margin-bottom: 10px;
+                }
+
+                .mansione {
+                    font-size: 18px;
+                    color: white;
+                }
+
+                .email {
+                    font-size: 18px;
+                    color: cornflowerblue;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
 }
